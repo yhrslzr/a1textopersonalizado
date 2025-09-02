@@ -6,13 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		351E4F0C2E666AA5009DE68C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351E4F0A2E666AA5009DE68C /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		351E4EE72E66696A009DE68C /* a1textopers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a1textopers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351E4F0B2E666AA5009DE68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		351E4F0D2E666AEF009DE68C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		351E4F052E6669C1009DE68C /* Exceptions for "a1textopers" folder in "a1textopers" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				starjedi.ttf,
+			);
+			target = 351E4EE62E66696A009DE68C /* a1textopers */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		351E4EE92E66696A009DE68C /* a1textopers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				351E4F052E6669C1009DE68C /* Exceptions for "a1textopers" folder in "a1textopers" target */,
+			);
 			path = a1textopers;
 			sourceTree = "<group>";
 		};
@@ -32,6 +52,7 @@
 		351E4EDE2E66696A009DE68C = {
 			isa = PBXGroup;
 			children = (
+				351E4F0A2E666AA5009DE68C /* Localizable.strings */,
 				351E4EE92E66696A009DE68C /* a1textopers */,
 				351E4EE82E66696A009DE68C /* Products */,
 			);
@@ -91,6 +112,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 351E4EDE2E66696A009DE68C;
 			minimizedProjectReferenceProxies = 1;
@@ -109,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351E4F0C2E666AA5009DE68C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +146,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		351E4F0A2E666AA5009DE68C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351E4F0B2E666AA5009DE68C /* en */,
+				351E4F0D2E666AEF009DE68C /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		351E4EF02E66696C009DE68C /* Debug */ = {
@@ -256,6 +291,7 @@
 				DEVELOPMENT_TEAM = L45K4QVPUS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = a1textopers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +320,7 @@
 				DEVELOPMENT_TEAM = L45K4QVPUS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = a1textopers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
