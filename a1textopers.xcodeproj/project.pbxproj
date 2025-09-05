@@ -14,6 +14,7 @@
 		351E4EE72E66696A009DE68C /* a1textopers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a1textopers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		351E4F0B2E666AA5009DE68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		351E4F0D2E666AEF009DE68C /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		35F0C9472E6BAB9C00A366A8 /* starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = starjedi.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -21,7 +22,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				starjedi.ttf,
 			);
 			target = 351E4EE62E66696A009DE68C /* a1textopers */;
 		};
@@ -52,6 +52,7 @@
 		351E4EDE2E66696A009DE68C = {
 			isa = PBXGroup;
 			children = (
+				35F0C9472E6BAB9C00A366A8 /* starjedi.ttf */,
 				351E4F0A2E666AA5009DE68C /* Localizable.strings */,
 				351E4EE92E66696A009DE68C /* a1textopers */,
 				351E4EE82E66696A009DE68C /* Products */,
