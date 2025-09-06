@@ -12,6 +12,7 @@ struct a1textopersApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.locale, .init(identifier: "en"))
         }
     }
 }
